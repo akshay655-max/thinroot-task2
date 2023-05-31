@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap_icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- external css -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <div class="row justify-content-between align-items-center" id="top_nav">
+        <div class="col-md-2 col-2 d-flex align-items-center">
+          <p>logo</p>
+        </div>
+        <div class="col-md-4 col-8 d-flex justify-content-end">
+          <div class="icon">
+            <i
+              class="bi bi-list"
+              style="font-weight: 600"
+              id="hamburger-icon"
+            ></i>
+          </div>
+          <div class="icon" id="facebook-container">
+            <i class="fa-brands fa-facebook-f" id="facebook-icon"></i>
+          </div>
+          <div class="icon" id="twitter-container">
+            <i class="bi bi-twitter" id="twitter-icon"></i>
+          </div>
+          <div id="instagram-container" class="icon border">
+            <i class="bi bi-instagram" id="instagram-icon"></i>
+          </div>
+        </div>
+      </div>
+      <!-- upload -->
+      <div class="row border justify-content-center" id="upload">
+        <div class="col-md-5 col-11" id="upload_text_container">
+          <p class="h3">
+            One-click <br />
+            solution for <br />
+            your static? <br />
+            website.
+          </p>
+          <div id="btn-group">
+            <button type="button" class="btn btn-success" id="upload_btn">
+              <i class="bi bi-upload" id="upload_icon"></i>Upload for free
+            </button>
+            <button type="button" class="btn" id="youtube_btn">
+              <i class="bi bi-youtube" id="youtube_icon"></i>Watch Video
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-11" id="img_container">
+          <img
+            src="images/istockphoto-1216533641-170667a.jpeg"
+            class="img-fluid"
+            alt=""
+            id="upload_img"
+          />
+        </div>
+      </div>
+
+      <!-- hosting -->
+      <div class="row justify-content-evenly" id="hoisting">
+        <div class="col-md-5 col-11" id="hoisting-text-container">
+          <div>
+            <p class="h3" id="hoisting-p-1">
+              Hosting <br />
+              solution with <br />
+              benefits <br />
+            </p>
+            <p>
+              Turn your ideas into reality with Static. <br />
+              with a lot of powerful features,we <br />
+              gurantee simplicity and clarity.
+            </p>
+            <button type="button" class="btn btn-success" id="hoisting_btn">
+              read more
+            </button>
+          </div>
+        </div>
+        <div class="col-md-5 col-11">
+          <div class="row" id="hoisting_div_parent">
+            <div class="col-md-5 col-11 text-center hoisting-div">
+              <div class="icon_div">
+                <i class="bi bi-lock"></i>
+              </div>
+              <button type="button" class="btn btn-success hosting-btn">
+                Free
+              </button>
+
+              <p class="h5 hoisting-text">SSL Certificate</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur <br />
+                adipisicing elit. Odio enim labore, fuga ut, <br />
+                ad dignissimos deserunt quam ducimus vitae itaque facere <br />
+              </p>
+              <a href="">MORE</a>
+            </div>
+
+            <div class="col-md-5 col-11 text-center hoisting-div">
+              <div class="icon_div">
+                <i class="bi bi-globe2"></i></i>
+              </div>
+
+              <p class="h5 hoisting-text">Personal Domain</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur <br />
+                adipisicing elit. Odio enim labore, fuga ut, <br />
+                ad dignissimos deserunt quam ducimus vitae itaque facere <br />
+              </p>
+              <a href="">MORE</a>
+            </div>
+            <div class="col-md-5 col-11 text-center hoisting-div">
+              <div class="icon_div">
+                <i class="bi bi-blockquote-right"></i>
+              </div>
+
+              <p class="h5 hoisting-text">Code Editor</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur <br />
+                adipisicing elit. Odio enim labore, fuga ut, <br />
+                ad dignissimos deserunt quam ducimus vitae itaque facere <br />
+              </p>
+              <a href="">MORE</a>
+            </div>
+            <div class="col-md-5 col-11 text-center hoisting-div">
+              <div class="icon_div">
+                <i class="bi bi-database-lock"></i></i>
+              </div>
+              <button type="button" class="btn btn-success hosting-btn">
+                Free
+              </button>
+              <p class="h5 hoisting-text">Media Storage</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur <br />
+                adipisicing elit. Odio enim labore, fuga ut, <br />
+                ad dignissimos deserunt quam ducimus vitae itaque facere <br />
+              </p>
+              <a href="">MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- amazing -->
+      <div class="row" id="amazing">
+        <div class="col-md-3 col-11" id="amazing-bg">
+          <div></div>
+        </div>
+        <div class="col-md-5 col-11" id="amazing-img-container">
+          <img src="images/Fresh_Veggies_SG_Fresh_Vegetables_Online_Delivery_in_Singapore-03_600x600.webp" width="100%" height="400px" alt="" id="amazing-img">
+        </div>
+        <div class="col-md-3 col-7 " id="amazing-card">
+          <p class="h4">Create Amazing <br>Website</p>
+          <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.  Consequuntur neque, saepe voluptatum quam cum <br> sapiente molestias ipsam eveniet! Id placeat <br> voluptate officia quam atque quae aut <br> nulla magni a
+            <a href="" id="amazing-anchor">accusantium </a> libero.</p>
+          <button type="button" class="btn btn-success">learn more</button>
+        </div>
+
+      </div>
+
+      <!-- client -->
+      <div class="row justify-content-center" id="client">
+        <div class="col-md-8 col-11 text-center" id="client_text">
+          <p id="client-p-1">TESTIMONIALS</p>
+          <p id="client-p-2" class="h3" >
+            What Client Say
+          </p>
+          <P>We place huge value on strong relationships and have seen the benefit they <br>
+          bring to our bisness.Customer feedback is vital in helping us to get it right.
+          </P>
+        </div>
+        <!-- client-card -->
+        <div class="row justify-content-center" id="client_card_container">
+          <div class="col-md-3  col-11 client_card text-center">
+            <img src="images/close-shot-beautiful-young-redhead-260nw-420522376.webp" alt="" class="img-fluid rounded-circle" id="client_img" >
+            <p class="client-card-p1"><i class="bi bi-quote" style="color:black;margin-right:5px;font-size:20px"></i>Vista suscipit tellus <br>
+              mauris a diam maencena <br>
+              sed enim ut.Mauris augue <br>
+              neque gravida in <br>
+              fermentum.Prasent <br>
+              semper feugh nibh sed <br>
+              pulvinar proin.<i class="bi bi-quote" style="color:black;margin-left:5px;font-size:20px"></i>
+            
+            </p>
+            <p class="h3 client-card-p2" >
+              Nat reynolds
+            </p>
+            <p class="client-card-p3">Chief Accountant</p>
+
+          </div>
+          <div class="col-md-3  col-11 client_card text-center">
+            <img src="images/close-shot-beautiful-young-redhead-260nw-420522376.webp" alt="" class="img-fluid rounded-circle" id="client_img" >
+            <p class="client-card-p1"><i class="bi bi-quote" style="color:black;margin-right:5px;font-size:20px"></i>Vista suscipit tellus <br>
+              mauris a diam maencena <br>
+              sed enim ut.Mauris augue <br>
+              neque gravida in <br>
+              fermentum.Prasent <br>
+              semper feugh nibh sed <br>
+              pulvinar proin.<i class="bi bi-quote" style="color:black;margin-left:5px;font-size:20px"></i>
+            
+            </p>
+            <p class="h3 client-card-p2" >
+              Nat reynolds
+            </p>
+            <p class="client-card-p3">Chief Accountant</p>
+          </div>
+          <div class="col-md-3 col-11 client_card text-center">
+            <img src="images/close-shot-beautiful-young-redhead-260nw-420522376.webp" alt="" class="img-fluid rounded-circle" id="client_img" >
+            <p class="client-card-p1"><i class="bi bi-quote" style="color:black;margin-right:5px;font-size:20px"></i>Vista suscipit tellus <br>
+              mauris a diam maencena <br>
+              sed enim ut.Mauris augue <br>
+              neque gravida in <br>
+              fermentum.Prasent <br>
+              semper feugh nibh sed <br>
+              pulvinar proin.<i class="bi bi-quote" style="color:black;margin-left:5px;font-size:20px"></i>
+            
+            </p>
+            <p class="h3 client-card-p2" >
+              Nat reynolds
+            </p>
+            <p class="client-card-p3">Chief Accountant</p>
+          </div>
+          <div class="col-md-3 col-11 client_card text-center">
+            <img src="images/close-shot-beautiful-young-redhead-260nw-420522376.webp" alt="" class="img-fluid rounded-circle" id="client_img" >
+            <p class="client-card-p1"><i class="bi bi-quote" style="color:black;margin-right:5px;font-size:20px"></i>Vista suscipit tellus <br>
+              mauris a diam maencena <br>
+              sed enim ut.Mauris augue <br>
+              neque gravida in <br>
+              fermentum.Prasent <br>
+              semper feugh nibh sed <br>
+              pulvinar proin.<i class="bi bi-quote" style="color:black;margin-left:5px;font-size:20px"></i>
+            
+            </p>
+            <p class="h3 client-card-p2" >
+              Nat reynolds
+            </p>
+            <p class="client-card-p3">Chief Accountant</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- purchase -->
+
+      <div class="row " id="purchase">
+        <div class="col-md-5 col-11" id="purchase-first-block">
+          <p class="h2" id="purchase-p-1">Purchase</p>
+          <p>Start using static.app as  a hosting for your <br> websites to get the best features to buck <br> ratio on the market</p>
+        </div>
+        <div class="col-md-2 col-11 purchase-tick">
+          <p><i class="bi bi-check tick-icon"></i>Unlimited Pages</p>
+          <p><i class="bi bi-check tick-icon"></i>Unlimited Forms</p>
+          <p><i class="bi bi-check tick-icon"></i>Unlimited HTTPS</p>
+        </div>
+        <div class="col-md-2 col-11 purchase-tick">
+          <p><i class="bi bi-check tick-icon"></i>Unlimited Pages</p>
+          <p><i class="bi bi-check tick-icon"></i>Unlimited Forms</p>
+          <p><i class="bi bi-check tick-icon"></i>Unlimited HTTPS</p>
+        </div>
+            <!-- purchase-card -->
+      <div class="row justify-content-evenly" id="purchase-card-container">
+        <div class="col-md-3 col-11 purchase-card text-white" id="purchase-card-1">
+          <p >Starter Plan</p>
+          <p >Free</p>
+          <button type="button" class="btn btn-success" id="purchase-btn-1">Upload for Free<i class="bi bi-arrow-right" style="margin-left:4px"></i></button>
+          <p>Free Static.app domain included. <br>No credit card</p>
+        </div>
+        <div class="col-md-3 col-11 purchase-card" id="purchase-card-2">
+          <div>
+            <p>Yearly Plan</p>
+            <span class="badge rounded-pill text-bg-warning" style="width:25%;height:20px">Save 25%</span>
+          </div>
+          <p class="common-card-p1" ><Span class="common-card-span">$9</Span>/month</p>
+          <button type="button" class="btn btn-success" >Upload for Free<i class="bi bi-arrow-right" style="margin-left:4px"></i></button>
+          <p>Billed $108 per website annually <br>$36 cheaper to this way.</p>
+        </div>
+        <div class="col-md-3 col-11 purchase-card" id="purchase-card-3">
+          <p style="color:green">Monthly Plan</p>
+          <p class="common-card-p1" ><Span class="common-card-span">$12</Span>/month</p>
+          <button type="button" class="btn btn-success" >Upload for Free<i class="bi bi-arrow-right" style="margin-left:4px"></i></button>
+          <p>Billed $108 per website annually <br>$36 cheaper to this way.</p>
+        </div>
+      </div>
+
+      </div>
+      <!-- static -->
+      <div class="row" id="static">
+        <div class="col-md-5 col-11" id="static-sec-1">
+         <div id="static-bg"></div>
+        <img src="images/istockphoto-1216533641-170667a.jpeg" alt="" class="img-fluid" id="static-img">
+        </div>
+        <div class="col-md-5 col-11" id="static-sec-2">
+          <p class="h3">Get started <br>with the <br>simpliest <br>static page</p>
+          <button type="button" class="btn btn-success" id="static_btn">
+            <i class="bi bi-upload" id="static_icon"></i>Upload for free
+          </button>
+        </div>
+      </div>
+
+      <!-- contact -->
+      <div class="row border" id="contact">
+        <div class="col-md-12 col-12 " id="contact-sec-1"></div>
+        <div class="col-md-10 col-8" id="contact-sec-2">
+          <div class="row justify-content-evenly">
+            <div class="col-md-5 col-11">
+              <p class="h4" id="contact-info">Contact Info</p>
+              <p><i class="bi bi-telephone-plus contact-icon"></i>+1 (234)567-8910</p>
+              <p><i class="bi bi-envelope contact-icon"></i>contact@yourmail.com</p>
+              <p><i class="bi bi-geo-alt contact-icon"></i>203,Envato Labs ,Behind Alis Street, <br>Australia</p>
+              <div >
+                <i class="bi bi-instagram contact-social-icons"></i>
+                <i class="fa-brands fa-twitter contact-social-icons"></i>
+                <i class="bi bi-facebook contact-social-icons"></i>
+                <i class="bi bi-youtube contact-social-icons"></i>
+
+              </div>
+            </div>
+            <div class="col-md-5 col-11">
+              <div class="mb-3" id="contact-input">
+                <input type="name" class="form-control contact-input-field" id="exampleFormControlInput1" placeholder="Enter your name">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control contact-input-field" id="exampleFormControlInput2" placeholder="Enter valid email address">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control contact-input-field" id="exampleFormControlTextarea1" rows="3">Enter your message</textarea>
+              </div>
+              <button type="button" class="btn btn-success" id="contact-btn">SUBMIT</button>
+            </div>
+       
+          </div>
+        </div>
+      </div>
+
+          <!-- footer -->
+          <div
+          class="row justify-content-center text-white text-center"
+          id="footer"
+        >
+          <div class="col-md-5 col-11" id="footer-p">
+            Sample text.click to select the text box.click again or double <br />
+            click to start editing the text.
+          </div>
+        </div>
+  
+  
+      <!-- container-end -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- https://source.unsplash.com/random/900×700/?fruit -->
